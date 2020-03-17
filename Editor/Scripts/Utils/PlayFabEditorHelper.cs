@@ -113,14 +113,23 @@ namespace PlayFab.PfEditor
 
         private static GUISkin GetUiStyle()
         {
+
             /*var searchRootAssetFolder = Application.dataPath;
+
             var pfGuiPaths = Directory.GetFiles(searchRootAssetFolder, "PlayFabStyles.guiskin", SearchOption.AllDirectories);
+
             foreach (var eachPath in pfGuiPaths)
+
             {
+
                 var loadPath = eachPath.Substring(eachPath.LastIndexOf("Assets"));
+
                 return (GUISkin)AssetDatabase.LoadAssetAtPath(loadPath, typeof(GUISkin));
+
             }*/
+
             return Resources.Load<GUISkin>("PlayFabStyles");
+
             //return null;
         }
 

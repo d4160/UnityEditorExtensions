@@ -1,7 +1,7 @@
 {
   "name": "play-fab.unity-editor-extensions",
   "displayName": "PlayFab Unity Editor Extensions",
-  "version": "2.79.0",
+  "version": "2.79.1",
   "unity": "2017.1",
   "description": "Welcome to the home of PlayFab's official Unity plugin, the best interface for viewing and configuring our Unity SDK. Our plugin (currently in beta) houses a new custom inspector serving as the remodeled 'front door' for our Unity Developers.",
   "keywords": [
